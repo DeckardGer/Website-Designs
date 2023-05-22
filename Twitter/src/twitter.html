@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="/dist/output.css" rel="stylesheet" />
+        <link href="../dist/output.css" rel="stylesheet" />
         <title>Twitter</title>
     </head>
     <body class="bg-black h-screen">
@@ -259,12 +259,12 @@
                 </div>
             </div>
             <!--Main-->
-            <div class="bg-red-700 w-[60px] h-[1000px]"></div>
+            <div class="bg-[#191A1E] w-[600px] h-[1000px]"></div>
             <!--Other Sidebar-->
             <div class="flex flex-col mr-3 ml-8 grow max-w-[348px]">
                 <!--Search-->
                 <div
-                    class="flex items-center pr-7 bg-[#191A1E] rounded-full mt-1 mb-4 border-[1px] border-black focus-within:bg-black focus-within:border-[#1D9BF0] fill-[#71767b] focus-within:fill-[#1D9BF0]"
+                    class="flex items-center pr-7 bg-[#212327] rounded-full mt-1 mb-4 border-[1px] border-black focus-within:bg-black focus-within:border-[#1D9BF0] fill-[#71767b] focus-within:fill-[#1D9BF0]"
                 >
                     <div class="w-6 ml-5 mr-2">
                         <svg
@@ -282,26 +282,49 @@
                     <input
                         type="text"
                         placeholder="Search Twitter"
-                        class="bg-[#191A1E] text-white w-full text-[15px] placeholder-[#71767b] p-3 outline-none focus:bg-black"
+                        class="bg-[#212327] text-white w-full text-[15px] placeholder-[#71767b] p-3 outline-none focus:bg-black"
                     />
                 </div>
                 <!--What's Happening-->
-                <section class="bg-[#111316] w-full rounded-2xl py-3">
-                    <span class="text-white text-xl font-bold px-4"
-                        >What's happening</span
-                    >
+                <section class="bg-[#16181C] w-full rounded-2xl pt-3">
+                    <div class="mb-3 px-4">
+                        <span class="text-white text-xl font-extrabold"
+                            >What's happening</span
+                        >
+                    </div>
                     <div
-                        class="relative flex flex-col py-[10px] hover:bg-[#16171B] px-4 cursor-pointer transition ease-in-out duration-200"
+                        class="flex flex-row justify-between py-[10px] hover:bg-[#1D1F23] px-4 cursor-pointer transition ease-in-out duration-200"
+                    >
+                        <div class="flex flex-col">
+                            <span class="text-[#71767B] text-[13px]"
+                                >NBA · 49 minutes ago</span
+                            >
+                            <span class="text-white text-[15px] font-bold"
+                                >Celtics at Heat</span
+                            >
+                        </div>
+                        <div class="w-[68px] h-[68px]">
+                            <img
+                                src="../images/Celtics Image.jpeg"
+                                alt="Celtics at Heat"
+                                class="h-full w-full object-cover rounded-xl"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="relative flex flex-col py-[10px] hover:bg-[#1D1F23] px-4 cursor-pointer transition ease-in-out duration-200"
                     >
                         <span class="text-[#71767B] text-[13px]"
                             >Gaming · Trending</span
                         >
-                        <span class="text-white text-[15px]">#RTX4060</span>
+                        <span class="text-white text-[15px] font-bold"
+                            >#RTX4060</span
+                        >
                         <span class="text-[#71767B] text-[13px]"
                             >62.3K Tweets</span
                         >
                         <div
-                            class="absolute top-2 right-2 p-2 hover:bg-[#18212A] rounded-full fill-[#71767B] hover:fill-[#1D9BF0]"
+                            class="absolute top-2 right-2 p-2 hover:bg-[#222C37] rounded-full fill-[#71767B] hover:fill-[#1D9BF0] transition ease-in-out duration-200"
                         >
                             <div class="w-[19px]">
                                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -315,17 +338,19 @@
                         </div>
                     </div>
                     <div
-                        class="relative flex flex-col py-[10px] hover:bg-[#16171B] px-4 cursor-pointer transition ease-in-out duration-200"
+                        class="relative flex flex-col py-[10px] hover:bg-[#1D1F23] px-4 cursor-pointer transition ease-in-out duration-200"
                     >
                         <span class="text-[#71767B] text-[13px]"
                             >Technology · Trending</span
                         >
-                        <span class="text-white text-[15px]">#iPhone</span>
+                        <span class="text-white text-[15px] font-bold"
+                            >#iPhone</span
+                        >
                         <span class="text-[#71767B] text-[13px]"
                             >8,284 Tweets</span
                         >
                         <div
-                            class="absolute top-2 right-2 p-2 hover:bg-[#18212A] rounded-full fill-[#71767B] hover:fill-[#1D9BF0]"
+                            class="absolute top-2 right-2 p-2 hover:bg-[#222C37] rounded-full fill-[#71767B] hover:fill-[#1D9BF0] transition ease-in-out duration-200"
                         >
                             <div class="w-[19px]">
                                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -339,17 +364,17 @@
                         </div>
                     </div>
                     <div
-                        class="relative flex flex-col py-[10px] hover:bg-[#16171B] px-4 cursor-pointer transition ease-in-out duration-200"
+                        class="relative flex flex-col py-[10px] hover:bg-[#1D1F23] px-4 cursor-pointer transition ease-in-out duration-200"
                     >
                         <span class="text-[#71767B] text-[13px]">Trending</span>
-                        <span class="text-white text-[15px]"
+                        <span class="text-white text-[15px] font-bold"
                             >#PlayStationShowcase</span
                         >
                         <span class="text-[#71767B] text-[13px]"
                             >1,349 Tweets</span
                         >
                         <div
-                            class="absolute top-2 right-2 p-2 hover:bg-[#18212A] rounded-full fill-[#71767B] hover:fill-[#1D9BF0]"
+                            class="absolute top-2 right-2 p-2 hover:bg-[#222C37] rounded-full fill-[#71767B] hover:fill-[#1D9BF0] transition ease-in-out duration-200"
                         >
                             <div class="w-[19px]">
                                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -361,6 +386,37 @@
                                 </svg>
                             </div>
                         </div>
+                    </div>
+                    <div
+                        class="relative flex flex-col py-[10px] hover:bg-[#1D1F23] px-4 cursor-pointer transition ease-in-out duration-200"
+                    >
+                        <span class="text-[#71767B] text-[13px]">Trending</span>
+                        <span class="text-white text-[15px] font-bold"
+                            >TLOU</span
+                        >
+                        <span class="text-[#71767B] text-[13px]"
+                            >3,255 Tweets</span
+                        >
+                        <div
+                            class="absolute top-2 right-2 p-2 hover:bg-[#222C37] rounded-full fill-[#71767B] hover:fill-[#1D9BF0] transition ease-in-out duration-200"
+                        >
+                            <div class="w-[19px]">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <g>
+                                        <path
+                                            d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="py-[14px] hover:bg-[#1D1F23] px-4 cursor-pointer transition ease-in-out duration-200 rounded-b-2xl"
+                    >
+                        <span class="text-[#1D9BF0] text-[15px]"
+                            >Show more</span
+                        >
                     </div>
                 </section>
                 <!--Who To Follow-->
